@@ -1,4 +1,6 @@
+#macos
 .DS_Store
+#datasetfolder
 Dataset
 # Byte-compiled / optimized / DLL files
 __pycache__/
