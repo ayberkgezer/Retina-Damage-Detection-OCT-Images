@@ -1,6 +1,7 @@
 #macos finder
 .DS_Store
 #datasetfolder
+.vscode
 Dataset
 # Byte-compiled / optimized / DLL files
 __pycache__/
