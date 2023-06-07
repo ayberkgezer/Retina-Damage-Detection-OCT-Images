@@ -27,8 +27,8 @@ import tensorflow as tf
 # default settings
 img_width, img_height = 224, 224
 
-train_dir = '/Users/ayberk/Retina-Damage-Detection-OCT-Images/Dataset/train'
-validate_dir = '/Users/ayberk/Retina-Damage-Detection-OCT-Images/Dataset/test'
+train_dir = 'Dataset/train'
+validate_dir = 'Dataset/test'
 nb_epochs = 20
 batch_size = 16
 nb_classes = len(glob.glob(train_dir + '/*'))
