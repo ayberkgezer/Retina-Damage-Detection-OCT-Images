@@ -1,21 +1,15 @@
 from sklearn.metrics import confusion_matrix, ConfusionMatrixDisplay
-import codecs
 import json
 import os
-import sys
 import glob as glob
 import numpy as np
 import datetime
-import cv2
-import keras
 from keras.applications.vgg16 import VGG16, preprocess_input
 from keras.models import Model
 from keras.layers import Dense, GlobalAveragePooling2D
 from keras.preprocessing.image import ImageDataGenerator
 from keras.optimizers import RMSprop
-import tensorflow
 from scipy.interpolate import interp1d
-import pandas as pd
 import matplotlib.pyplot as plt
 
 #%matplotlib inline
